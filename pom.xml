@@ -11,8 +11,8 @@
     <groupId>tech.initilization</groupId>
     <artifactId>Employeemanager</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Employeemanager</name>
-    <description>Employeemanager</description>
+    <name>Employee manager</name>
+    <description>Employee manager</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -27,9 +27,16 @@
         </dependency>
 
         <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <scope>runtime</scope>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>

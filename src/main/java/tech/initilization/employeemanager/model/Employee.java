@@ -14,7 +14,7 @@ public class Employee implements Serializable {
 
     private String name;
     private String email;
-    private String jobTitle;
+        private String jobTitle;
     private String phoneNumber;
     private String imageUrl;
     @Column(nullable = false, updatable = false)
